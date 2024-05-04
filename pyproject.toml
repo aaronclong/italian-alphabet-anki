@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "italian-alphabet-anki"
+version = "0.1.0"
+description = ""
+authors = ["Aaron Long <aaron.long.c@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+genanki = "^0.13.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
