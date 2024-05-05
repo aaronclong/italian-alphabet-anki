@@ -87,7 +87,7 @@ def main():
                     fields=[
                         data[0],
                         data[1].replace('"', ""),
-                        mp3_file_name
+                        f'[sound:{mp3_file_name}]'
                     ]
                 )
             )
